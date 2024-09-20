@@ -1,0 +1,45 @@
+html body {
+    background-color: darkgrey;
+   
+}
+.conteiner1 {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.color-box { 
+    background-color: rgb(255, 253, 253);
+    border: 2px;
+    color: beige;
+    width: 300px;
+    height: 775px;
+    box-sizing: border-box;
+
+}
+
+.box-röd, .box-gul, .box-grön {
+    width: 240px;
+    height: 26%;
+    margin: 10px;
+}
+
+.box-röd{
+    background-color: crimson;
+    border: 20px solid firebrick; 
+}
+
+.box-gul {
+    background-color: gold;
+    border: 20px solid orange;
+   
+}
+.box-grön {
+    background-color:chartreuse;
+    border: 20px solid forestgreen;
+   
+}
